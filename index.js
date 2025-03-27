@@ -91,7 +91,7 @@
 
 // API Whitelisting: Restricting API access to approved domains.
 
-//🔹 Express.js Example (Whitelist CORS for specific domains):
+//Express.js Example (Whitelist CORS for specific domains):
 
 // const cors = require('cors');
 
@@ -133,30 +133,7 @@
 // Use Case: Allowing cross-domain API requests.
 
 //===========================================================
-//Question 7.) 4. How Many Types of APIs Are There?
-
-//ANSWER :
-//  There are four main types of APIs:
-// Open APIs (Public APIs):
-// Available for anyone to use.
-
-// Example: OpenWeather API, GitHub API.
-// Partner APIs:
-// Shared with specific partners or businesses.
-
-// Example: PayPal API for partner integrations.
-// Internal APIs (Private APIs):
-// Used within an organization for internal services.
-// Example: A company’s internal HR management API.
-
-// Composite APIs:
-// Combines multiple API calls into a single request.
-// Example: Fetching user details + order history in one API call.
-//Use Case: Different APIs serve different purposes, from public data access to internal system integrations.
-
-
-//===========================================================
-//Question 8.) What is WebSocket?
+//Question 7.) What is WebSocket?
 //ANSWER :
 // WebSocket is a communication protocol that allows real-time, two-way communication between a client (browser) and a server. Unlike HTTP, which requires repeated requests, WebSocket keeps the connection open, making it ideal for chat apps, live notifications, and real-time updates.
 
@@ -171,7 +148,7 @@
 //Use Case: Chat applications, stock market updates, multiplayer games.
 
 //===========================================================
-//Question 9.) Difference between useState, useRef, useMemo, and useEffect?
+//Question 8.) Difference between useState, useRef, useMemo, and useEffect?
 
 //ANSWER :
 // Hook	Purpose
